@@ -77,6 +77,7 @@ def add_noise_on_planar_section(terrain, min_region_size=100, mean=0, sigma=5, d
         while queue:
             current_node = queue.pop(-1)
             regions.append(current_node)
+
             neighbors = []
             row, col = current_node
             if row > 0 and not visited[row - 1, col] \

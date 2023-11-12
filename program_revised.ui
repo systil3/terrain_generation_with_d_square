@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1412</width>
+    <width>1360</width>
     <height>871</height>
    </rect>
   </property>
@@ -344,6 +344,9 @@ QSlider::handle:horizontal:hover {
     </property>
    </widget>
    <widget class="QSlider" name="repeatPeriodSlider">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>930</x>
@@ -378,6 +381,9 @@ QSlider::handle:horizontal:hover {
     </property>
    </widget>
    <widget class="QLabel" name="segmentLabel_2">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>1220</x>
@@ -399,6 +405,9 @@ QSlider::handle:horizontal:hover {
     </property>
    </widget>
    <widget class="QCheckBox" name="repeatCheckBox">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>850</x>
@@ -536,15 +545,15 @@ QSlider::handle:horizontal:hover {
     </property>
     <property name="styleSheet">
      <string notr="true">QSlider::groove:horizontal { 
-	background-color: #c5c8e6;
+	background-color: #b6cfd9;
 	border: 0px solid #424242; 
 	height: 16px; 
 	border-radius: 4px;
 }
 
 QSlider::handle:horizontal { 
-	background-color: #525dbf; 
-	border: 6px solid #525dbf;
+	background-color: #3ab7d6; 
+	border: 6px solid #3ab7d6;
 	width: 6px; 
 	margin-top: -6px; 
 	margin-bottom: -6px; 
@@ -595,7 +604,7 @@ QSlider::handle:horizontal:hover {
      </font>
     </property>
     <property name="text">
-     <string>1</string>
+     <string>0</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -651,15 +660,15 @@ QSlider::handle:horizontal:hover {
     </property>
     <property name="styleSheet">
      <string notr="true">QSlider::groove:horizontal { 
-	background-color: #c5c8e6;
+	background-color: #b6cfd9;
 	border: 0px solid #424242; 
 	height: 16px; 
 	border-radius: 4px;
 }
 
 QSlider::handle:horizontal { 
-	background-color: #525dbf; 
-	border: 6px solid #525dbf;
+	background-color: #3ab7d6; 
+	border: 6px solid #3ab7d6;
 	width: 6px; 
 	margin-top: -6px; 
 	margin-bottom: -6px; 
@@ -686,7 +695,7 @@ QSlider::handle:horizontal:hover {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1412</width>
+     <width>1360</width>
      <height>26</height>
     </rect>
    </property>
